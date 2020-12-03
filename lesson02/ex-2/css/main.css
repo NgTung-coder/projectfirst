@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 23px;   
+}
+#header{
+    width: 960px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#header>#logo{
+    padding-top: 45px;
+}
+#header>#title-web .details{
+    font-weight: bold;
+    font-family:tahoma;
+    font-size: 12px;
+    color: #666666;
+}
+#main-menu{
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+}
+#main-menu li a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+#main-menu li:last-child{
+    margin-right: 0px;
+}
